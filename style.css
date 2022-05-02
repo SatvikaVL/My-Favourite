@@ -1,0 +1,66 @@
+#img{
+    height:200px;
+    border-radius:20px;
+    margin-top: 50px;
+  }
+  body{
+    text-align:center;
+    background: linear-gradient(#18FFFF 0%, #AA00FF 100%);
+    font-family: 'Lobster Two', cursive;
+}
+  #Title{
+    font-family: 'Lobster two', cursive;
+    font-size: large;
+  } 
+  
+  #bio{
+    padding:0;
+    font-size:20px;
+    font-family: 'Lobster Two', cursive;
+  }
+  .links{
+      float:left;
+    font-size:30px;
+    margin-left:20px;
+    padding-left: 35px;
+    padding-right: 33px;
+  }
+  .links:hover{
+    font-size: 35px;
+  }
+  #menu{
+    cursor:pointer;
+    list-style:none;
+    margin-top:0px;
+    z-index:999;
+    position:fixed;
+    background-color: white;
+    width:100%;
+  }
+  .favBook{
+    color:white;
+  }
+  .line{
+      height: 6px;
+      background-color: black;
+      width: 200px;
+      margin: auto;
+  }
+  #heading1{
+      font-size: 35px;
+  }
+  .img-src{
+    border-style: solid;
+    border-color: rgb(251, 251, 252);
+    height: 400;
+    border-width: 8px;
+    
+  }
+  .img-src:hover{
+    border-color: red;
+  }
+  .contact1 a{
+    display: inline;
+    font-size: 20px;
+    color: aliceblue;
+  }
